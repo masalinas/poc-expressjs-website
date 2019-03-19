@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 
-// example: node . --port=8080 --path=/Users/masalinas/git/edikal-site
+// recover arguments
 var args = require('minimist')(process.argv.slice(2));
 var port = args['port'] 
 var path = args['path']

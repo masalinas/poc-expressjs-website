@@ -5,7 +5,7 @@ const serveIndex = require('serve-index');
 const app = express();
 
 // recover arguments
-const args = require('minimist')(process.argv.slice(2));
+const args = require('minimiœst')(process.argv.slice(2));
 const port = args['port']
 const folder = args['folder']
 

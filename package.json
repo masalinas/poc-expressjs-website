@@ -10,6 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
-    "minimist": "^1.2.0"
+    "install": "^0.13.0",
+    "minimist": "^1.2.0",
+    "npm": "^11.5.1",
+    "serve-index": "^1.9.1"
   }
 }
